@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://pingxx.com'
   s.license      = 'COMMERCIAL'
   s.author       = { 'Afon Weng' => 'xufeng.weng@pingxx.com' }
-  s.platform     = :ios, '10.0'
+  s.platform     = :ios, '9.0'
   s.source       = { :http => "https://sdk-assets.oss-cn-shanghai.aliyuncs.com/pingpp/#{s.version}/pingpp-ios-libs.zip" }
   s.requires_arc = true
   s.default_subspec = 'Core', 'Alipay', 'UnionPay'
